@@ -1,0 +1,101 @@
+
+body {
+	font-family: sans-serif;
+    padding-top: 20px;
+    background-image: url("img/dark_embroidery.png");
+}
+header,main {
+    display: table-row;
+    width: 100%;
+}
+
+
+
+h1{
+	text-align: center;
+	font-size: 5vw;
+}
+h1 a, h1 a:hover, h1 a:visited{
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+}
+h1 a:hover, h1 a:active, h1 a:focus {
+	text-decoration: underline;
+}
+#headline {
+    min-width: 25%;
+    display: inline-block;
+}
+#prev, #next { 
+    font-size: 3vw; 
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+#calendar {
+    width: 100%;
+    margin: auto;
+    display: table;
+    font-size: 5vw;
+}
+
+header span, main span {
+    display: table-cell;
+    box-sizing: border-box;
+    text-align: center;
+}
+header.top-header {
+    padding-bottom: 15px;
+}
+main span {
+    padding: 5% 0;
+    border: 1px solid #555;
+    text-align: center;
+    font-weight: bold;
+    width: 14.28571%;
+    position: relative;
+}
+main span p {
+	margin: 0px;
+    font-size: 1.9vw;
+    height: 0px;
+}
+.holiday p {
+    font-size: 5px;
+}
+
+main span.today_true {
+    border: .5vw solid black;
+}
+.orange{
+	background-color: #e89347;
+}
+.blue{
+	background-color: #517bee;
+}
+.red{
+	background-color: #ed3149;
+}
+.green{
+	background-color: #34bc37;
+}
+.gray{
+	background-color: #666865;
+}
+.purple{
+	background-color: #8a52de;
+}
+span.Sun {
+    background-color: lightgray;
+    border: 1px solid #555;
+}
+main span.month_false {
+    background-color: white;
+    color: lightgray;
+    font-weight: normal;
+}
+
